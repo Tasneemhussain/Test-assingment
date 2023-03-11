@@ -208,6 +208,7 @@ header {
   mix-blend-mode: normal;
   opacity: 0.9;
   padding: 20px;
+  margin-left: 80px;
 }
 
 .sec-three {
@@ -224,9 +225,28 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.sec3-sub {
+  max-width: 1770px;
+  min-height: 700px;
+  background-image: url(../images/sec3-sub-img.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 body {
