@@ -31,7 +31,7 @@ header {
     color: #FFFFFF
 }
 .info {
-    font-family: 'Josefin Sans';
+    font-style: font.$font-style;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -60,9 +60,11 @@ header {
     border-left: none;
     cursor: pointer;
 }
- *{
+*{
     box-sizing: border-box;
 }
+
+
 .sec-one {
     max-width: 1773px;
     min-height: 83px;
@@ -72,7 +74,7 @@ header {
     justify-content: space-evenly;
 }
 .logo {
-    font-family: 'Josefin Sans';
+    font-style: font.$font-style;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -87,7 +89,7 @@ header {
    
 }
 .nav-li {
-    font-family: 'Aleo';
+    font-style: font.$font-style;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
