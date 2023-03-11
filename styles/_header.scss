@@ -40,7 +40,7 @@ header {
     color: #FFFFFF
 }
    
-.input1 {
+.input {
     padding: 10px;
     font-size: 17px;
     border: 4px solid white;
@@ -60,9 +60,9 @@ header {
     border-left: none;
     cursor: pointer;
 }
-// *{
-//     box-sizing: border-box;
-// }
+ *{
+    box-sizing: border-box;
+}
 .sec-one {
     max-width: 1773px;
     min-height: 83px;
