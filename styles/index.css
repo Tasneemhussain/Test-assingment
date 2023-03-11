@@ -249,6 +249,79 @@ header {
           align-items: flex-end;
 }
 
+.sec-four {
+  max-width: 1770px;
+  min-height: 731px;
+  background-image: url(../images/sec4-img1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title4 {
+  max-width: 390px;
+  min-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.title4-sub {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.info4 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.sec4-content {
+  background: #232323;
+  max-width: 508px;
+  min-height: 287px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo2 {
+  max-width: 445px;
+  min-height: 300px;
+}
+
 body {
   margin: 10px;
   padding: 10px;
