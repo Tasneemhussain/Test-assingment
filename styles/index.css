@@ -225,6 +225,7 @@ button:hover {
   opacity: 0.9;
   padding: 20px;
   margin-left: 80px;
+  margin-right: 80px;
 }
 
 .sec-three {
@@ -384,7 +385,7 @@ button:hover {
 .logo5 {
   max-width: 193px;
   min-height: 26px;
-  font-family: "Josefin Sans";
+  font-style: normal;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -397,7 +398,7 @@ button:hover {
 .info5 {
   max-width: 196px;
   min-height: 26px;
-  font-family: "Josefin Sans";
+  font-style: normal;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
