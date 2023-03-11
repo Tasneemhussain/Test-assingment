@@ -319,7 +319,7 @@ button:hover {
 .title4-sub {
   max-width: 150px;
   min-height: 26px;
-  font-family: "Josefin Sans";
+  font-style: normal;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -406,6 +406,56 @@ button:hover {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1440px) {
+  .header-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .header-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .photos {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .sec-two {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sec-three {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sec-four {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
 body {
   margin: 10px;
   padding: 10px;

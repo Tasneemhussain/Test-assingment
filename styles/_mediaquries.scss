@@ -1,0 +1,45 @@
+@media screen and (max-width:1440px) {
+    .header-content{
+        flex-wrap: wrap;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:770px) {
+    .header-content {
+        flex-wrap: wrap;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px) {
+    .header-content {
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:320px) {
+    .photos {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:660px) {
+    .sec-two{
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+       
+}
+@media screen and (max-width:320px) {
+    .sec-three{
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+       
+}
+@media screen and (max-width:320px) {
+    .sec-four{
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+       
+}
