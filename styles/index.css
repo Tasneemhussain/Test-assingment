@@ -280,6 +280,8 @@ header {
 }
 
 .title4-sub {
+  max-width: 150px;
+  min-height: 26px;
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -295,6 +297,8 @@ header {
   font-size: 15px;
   line-height: 26px;
   color: #FFFFFF;
+  max-width: 581px;
+  min-height: 165px;
 }
 
 .sec4-content {
@@ -302,7 +306,7 @@ header {
   max-width: 508px;
   min-height: 287px;
   margin-left: 50px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .container {
@@ -320,6 +324,49 @@ header {
 .photo2 {
   max-width: 445px;
   min-height: 300px;
+}
+
+.footer {
+  max-width: 1773px;
+  min-height: 271px;
+  background: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo5 {
+  max-width: 193px;
+  min-height: 26px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.info5 {
+  max-width: 196px;
+  min-height: 26px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
 }
 
 body {

@@ -10,8 +10,8 @@
 
 }
 .title4-sub {
-    // max-width: 150px;
-    // min-height: 26px;
+    max-width: 150px;
+    min-height: 26px;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -19,6 +19,7 @@
     line-height: 26px;
     text-transform: uppercase;
     color: #FFFFFF;
+    
     
 }
 .info4 {
@@ -28,8 +29,9 @@
     font-size: 15px;
     line-height: 26px;
     color: #FFFFFF;
-    // max-width: 581px;
-    // min-height: 165px;
+    max-width: 581px;
+    min-height: 165px;
+    
 
 }
 .sec4-content {
@@ -37,10 +39,7 @@
     max-width: 508px;
     min-height: 287px;
     margin-left: 50px;
-    padding: 10px;
-    
-
-
+    padding: 20px;
 }
 .container {
     display: flex;
