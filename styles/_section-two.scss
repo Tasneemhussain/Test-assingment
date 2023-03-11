@@ -16,7 +16,7 @@
 .title2 {
     font-style: font.$font-style;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 36px;
     line-height: 26px;
     color: #FFFFFF;
@@ -24,7 +24,7 @@
 .info2 {
     font-style: font.$font-style;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 1.6px;
@@ -44,7 +44,7 @@
 
 }
 .photo2 {
-    margin-left: 50px; 
+    margin-left: 50px;
     border: solid 5px transparent;
     max-width: 350px;
     min-height: 220px;
@@ -52,7 +52,7 @@
 }
 .photo1 {
     border: solid 5px transparent;
-    max-width: 350px;
+    max-width: 450px;
     min-height: 220px;
 }
 .photos :hover {
@@ -69,6 +69,12 @@
 
 .icons {
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
 
+}
+
+button:hover{
+    background-color: blue;
+    transition: all 0.4s ease-in-out;
+    
 }

@@ -139,7 +139,7 @@ header {
 .title2 {
   font-style: normal;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 36px;
   line-height: 26px;
   color: #FFFFFF;
@@ -148,7 +148,7 @@ header {
 .info2 {
   font-style: normal;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 1.6px;
@@ -178,7 +178,7 @@ header {
 
 .photo1 {
   border: solid 5px transparent;
-  max-width: 350px;
+  max-width: 450px;
   min-height: 220px;
 }
 
@@ -206,8 +206,15 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+button:hover {
+  background-color: blue;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .sec3-content {
