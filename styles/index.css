@@ -103,6 +103,84 @@ header {
   padding: 20px;
 }
 
+.sec-two {
+  max-width: 1770px;
+  min-height: 685px;
+  background-image: url(../images/sec-img2.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.info2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+
+.sec-content {
+  max-width: 560px;
+  min-height: 250px;
+}
+
+.btn2 {
+  max-width: 328px;
+  min-height: 63px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  border: none;
+}
+
+.photo2 {
+  margin-left: 50px;
+  border: solid 5px transparent;
+  max-width: 350px;
+  min-height: 220px;
+}
+
+.photo1 {
+  border: solid 5px transparent;
+  max-width: 350px;
+  min-height: 220px;
+}
+
+.photos :hover {
+  border-color: #2196F3;
+}
+
 body {
   margin: 10px;
   padding: 10px;
